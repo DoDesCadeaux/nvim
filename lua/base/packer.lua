@@ -16,6 +16,7 @@ require('lazy').setup({
 	  "olimorris/onedarkpro.nvim",
 	  priority = 1000, -- Ensure it loads first
 	},
+	{ 'wakatime/vim-wakatime', lazy = false },
 	'nvim-tree/nvim-web-devicons',
 	'folke/neodev.nvim',
 	"nvim-lua/plenary.nvim",

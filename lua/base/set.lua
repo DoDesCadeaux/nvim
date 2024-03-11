@@ -1,5 +1,7 @@
 local o = vim.opt
 vim.cmd[[colorscheme onedark_vivid]]
+vim.cmd[[hi StatusLine guifg=white guibg=#3d4454]]
+vim.cmd[[hi StatusLineNC guifg=white guibg=#21252b]]
 o.termguicolors = true
 o.wrap= false
 o.nu= true

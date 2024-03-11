@@ -65,6 +65,7 @@
 --    diagnostic_state = not diagnostic_state
 --end
 --
+vim.api.nvim_set_keymap('n', '??', [[:lua vim.diagnostic.open_float()<CR>]], {noremap = true, silent = true})
 --vim.api.nvim_set_keymap('n', '<leader>dd', [[:lua ToggleDiagnostics()<CR>]], {noremap = true, silent = true})
 --vim.api.nvim_set_keymap('n', '<F5>', [[<Cmd>lua add_to_header_file()<CR>]], { noremap = true, silent = true })
 --
