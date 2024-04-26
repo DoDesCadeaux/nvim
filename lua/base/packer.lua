@@ -73,3 +73,12 @@ require'nvim-treesitter.configs'.setup {
 }
 
 require'lspconfig'.pyright.setup{}
+require('lspconfig')['pylsp'].setup {
+    settings = {
+        pylsp = {
+            plugins = {
+                pycodestyle = { ignore = {'E501'}, maxLineLength = 100 }
+            }
+        }
+    }
+}
